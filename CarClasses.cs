@@ -27,7 +27,7 @@ namespace CarClasses
         public double CalculateDepreciation(int PassYears)
         {
             const double percent = 0.1;
-            double reduction = (double)Price*Math.Pow((1-percent), (PassYears-Year)) ;
+            double reduction = (double)Price*Math.Pow((1-percent), (PassYears-Year));
             return reduction;
         }
     }
